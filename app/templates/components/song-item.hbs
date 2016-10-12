@@ -1,0 +1,19 @@
+<h4>{{song.title}}</h4>
+Price: {{song.price}}
+<br />
+Play Count: {{song.playCount}}
+
+{{#if isPopular}}
+  <img style="width: 15px" src="https://www.tripepismith.com/wp-content/uploads/2015/06/Facebook-checkmark-300x300.png" />
+{{/if}}
+
+{{#if isExpensive}}
+<br />
+  $$
+  {{else}}
+  <br />
+  $
+{{/if}}
+
+<br />
+<i class="fa fa-thumbs-up" aria-hidden="true"></i>
